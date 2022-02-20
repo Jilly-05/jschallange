@@ -16,7 +16,6 @@ const KELVIN = 273;
 // API KEY
 const key = "82005d27a116c2880c8f0fcb866998a0";
 
-// 여기서 위치 정하기! 현재 위치로 하고싶다면 위에 주석처리한 함수 참고
 function onGeoOk(position){
     const lat = position.coords.latitude;
     const lng = position.coords.longitude;
@@ -32,11 +31,8 @@ function setPosition(){
 
 setPosition();
 
-
-// GET WEATHER FROM API PROVIDER
-//나라, 도시 설정은 여기서!
 function getWeather(latitude, longitude){
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&lang=kr`; //language korean에 관한 내용은 api 참고
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&lang=kr`; //language korean에 관한 내용은 api 참고
     fetch(api)
         .then(function(response){
             let data = response.json();
