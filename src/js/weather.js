@@ -51,7 +51,6 @@ function getWeather(latitude, longitude){
 }
 
 // DISPLAY WEATHER TO UI
-//나라, 도시 설정은 여기서!
 function displayWeather(){
     tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
     descElement.innerHTML = weather.description;
