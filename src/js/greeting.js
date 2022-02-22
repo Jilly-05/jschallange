@@ -34,3 +34,10 @@ if(savedUsername === null){
 } else {
     paintGreetings(savedUsername);
 }
+
+window.addEventListener("resize",setHeight);
+setHeight();
+function setHeight(){
+    const bgHeight = bg.height;
+    mainSection.style.height = bgHeight+"px";
+}
