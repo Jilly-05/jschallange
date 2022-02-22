@@ -1,3 +1,4 @@
+
 #greeting{
     z-index: 2;
     position:absolute;
@@ -15,10 +16,11 @@
 
 main{
     display: grid;
-    grid-template-columns: 106px 560px 260px 940px;
-    grid-template-rows: 136px 1010px ;
+    grid-template-columns: 6% 28% 13% 47%;
+    grid-template-rows: 11% 79% ;
     z-index: 2;
     position:absolute;
+    width: 100%;
 }
 
 body{
@@ -26,7 +28,7 @@ body{
 }
 
 #bg{
-    width: 2000px;
+    width: 100%;
     z-index: 1;
     position: absolute;
 }
@@ -64,6 +66,7 @@ span:first-child{
 
 .top{
     margin-left: 20px;
+    font-size: 0.65em;
 }
 
 .todo{
@@ -73,9 +76,10 @@ span:first-child{
 }
 
 li{
-    margin-top: 15px;
+    margin-top: 0.5em;
+    font-size: 1em;
 }
 
 li:first-child{
     margin-top: 0px;
-} 
+}
