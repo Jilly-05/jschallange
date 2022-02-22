@@ -64,7 +64,6 @@ span:first-child{
 
 .top{
     margin-left: 20px;
-    font-size: 0.65em;
 }
 
 .todo{
@@ -74,10 +73,9 @@ span:first-child{
 }
 
 li{
-    margin-top: 0.5em;
-    font-size: 1em;
+    margin-top: 15px;
 }
 
 li:first-child{
     margin-top: 0px;
-}
+} 
