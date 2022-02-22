@@ -17,7 +17,7 @@ const recomand =[
     {
         title:"세븐틴-Network Love",
         img:"img/recomand/스크린샷 2022-02-21 오전 2.44.36.png",
-        highlight:"넒 만나기 전에 나는 세상이 너무도 커서 어디가 어딘지 몰라"
+        highlight:"널 만나기 전에 나는 세상이 너무도 커서 어디가 어딘지 몰라"
     },
     {
         title:"Red Velvet-Psycho",
